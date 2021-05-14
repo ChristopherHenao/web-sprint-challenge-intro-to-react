@@ -82,6 +82,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+-React JS is a JS library used to build interactive UI on apps, while solving the problems of reusability, readability, and scaling. Reusability is solved by dividing the finished product into different components that can be used again on the page without having to write the code again. It solves readability because it is much easier to read React and JSX since all the code for each component is on its page instead of having to flip through the html, css, and JS page to figure out what's happening. Scaling is solved by dividing the page into compartments as well because it gives teams the ability to work on individual components that get added to the main page, and also, when there is a bug its much easier to find and solve since the components have been compartmentalized.  
+
 1. Describe component state.
+
+-Component state is data that is being stored on the component. That can be true or false, an array, etc.
+
 1. Describe props.
+
+-Props are information or functions that are passed to the component from the parents to allow it to work. Props are also read-only meaning that the value can't be changed in the child component.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+-A side effect is anything that affects something outside of the scope of the function being executed. You can sync effects by including a dependency array as the second argument that tells it when to run.
