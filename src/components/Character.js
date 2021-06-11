@@ -7,8 +7,6 @@ const StyledChararacter = Styled.div`
     border-radius: 30px;
     width: 40%;
     margin: 2% auto;
-
-
 `
 
 
@@ -16,15 +14,16 @@ const StyledChararacter = Styled.div`
 const Character = (props) => {
 
     const { character } = props
-
     
+
 
     return (
         <StyledChararacter>
             <h2>{character.name}</h2>
-            <p>Height: {character.height}</p>
-            <p>Mass: {character.mass}</p>
-            <p>Skin Color: {character.skin_color}</p>
+            <h4>Birth Year: {character.birth_year}</h4>
+            <h4>Height: {character.height}</h4>
+            <h4>Mass: {character.mass}</h4>
+            <h4>Skin Color: {character.skin_color}</h4>
         </StyledChararacter>
     )
 }
